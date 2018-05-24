@@ -1,0 +1,61 @@
+body {
+  background: lightblue;
+}
+.logo {
+  padding-left: 200px;
+}
+#linebreak {
+  border-width: 5px;
+  border-color: steelblue;
+  border-bottom-style: solid;
+}
+h1, span {
+  color: midnightblue;
+}
+.navselect {
+  background-color: white; /* Green */
+  border: 1px solid lightgrey;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+.btn-group .button {
+    background-color: white; /* Green */
+    border: 1px solid lightgrey;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+.btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+.btn-group .button:hover {
+    background-color: silver;
+}
+ .border {
+   border-width: 25px;
+   border-color: steelblue;
+   border-style: solid;
+ }
+ p {
+   font-family: "Helvetica";
+ }
+ .text_color strong {
+   color: midnightblue;
+ }
+ button {
+   padding: 6px;
+ }
+ input {
+   padding: 6px;
+ }
